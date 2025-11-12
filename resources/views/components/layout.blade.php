@@ -24,7 +24,7 @@
                             <div class="ml-10 flex items-baseline space-x-4">
                                <x-nav-link href="/" :active="request()->is('/')" type="a">Home</x-nav-link>
 
-                                <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
+                                <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
                                 <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="-mr-2 flex md:hidden">
                         <!-- Mobile menu button -->
-                        <button type="button" command="--toggle" commandfor="mobile-menu"
+                        <button type="button" command="--toggle" ,0commandfor="mobile-menu"
                             class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500">
                             <span class="absolute -inset-0.5"></span>
                             <span class="sr-only">Open main menu</span>
